@@ -155,6 +155,6 @@ ylabel('amplitude')
 figure; plot(final_signal(:, 1));
 hold on
 plot(locs, pks, 'ro');
-mean_heart_rate = 30 * f_s * length(locs) / length(final_signal); % 30sec for half minute
+mean_heart_rate = 30 * f_s * length(locs) / length(final_signal); % 30 sec for half minute
 fprintf('the mean heart rate per 30 seconds is %g', mean_heart_rate)
 
