@@ -1,7 +1,3 @@
-
-clc;
-clear all;
-close all;
 [ecg, f_s] = audioread('119e00m.wav');
 N = length(ecg);
 ti = [0:N - 1] / f_s; %time period(total sample/Fs )
